@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Exo 5 - Tableau	</title>
+</head>
+<script type="text/javascript">
+	function access(){
+		var n;
+		tab=new Array();
+			var nbr=prompt("donner un nombre de colonnes");
+		for(n=0;n<nbr;n++)
+		{
+			tab[n] = prompt("donnez une valeur "+ n)
+		}
+		for(n=0;n<nbr;n++)
+		{
+			document.write(tab [n],"/");
+		}
+
+	}
+
+
+</script>
+<body>
+<input type="button" name="c" onclick="access()" value="se connecter">
+
+</body>
+</html>
