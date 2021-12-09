@@ -5,10 +5,13 @@ nav ul{
 	padding: 0px;
 
 }
+
+
+
 nav li {
-	float: center;
-	width: 100px;
-	height: 40px;
+	float: right;
+	width: auto;
+	height: auto;
 	border: 2px solid #082371;
 	text-align: center;
 	line-height: 40px;
@@ -29,6 +32,4 @@ body
 {
 	background-image: url('tech.gif');
 	background-size: cover;
-	margin: 0px;
-	padding: 0px;
 }
