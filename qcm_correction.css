@@ -1,0 +1,40 @@
+div 
+{
+    width: 70%;
+}
+
+h2{
+    font-size: 14px;
+   
+    color: #2D0434 ;
+}
+h1{
+  
+    color: #2D0434 ;
+}
+
+
+.button{
+    float: right;
+    padding_right: 3px;
+    border-radius: 10px;
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+.button:hover{
+   background-color:black ;
+     border-radius: 10px;
+      border-color: white;
+      color: white;
+}
+
+.questions{
+    font-weight: bold;
+    color: #2D0434 ;
+
+}
+
+.vrai{
+color: darkred ;
+}
