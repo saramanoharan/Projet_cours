@@ -98,7 +98,7 @@ nav a
 nav>ul>li>a 
 {
 	padding: 20px 30px;
-	color: #FFF;
+	color: black;
 }
 nav li:hover .submenu
 {
