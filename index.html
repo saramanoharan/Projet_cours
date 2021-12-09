@@ -3,24 +3,32 @@
 <head>
 	<meta charset="utf-8">
 	<title>Accueil</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body background='data.gif'>
 <h1>Voici mes Exo réalisé en cours </h1>
 <nav id="lien">
+	<label for="menu-mobile" class="menu-mobile">Menu</label>
+	<input type="checkbox" id="menu-mobile" role="button">
 	<ul>
-		<li><a href="exo1.html"> Exo 1 - Permutation</a></li>
-		<li><a href="exo2.html"> Exo 2 - Pair & Impair</a></li>
-		<li><a href="exo3.html"> Exo 3 - Mot de Passe</a></li>
-		<li><a href="exo4.html"> Exo 4 - Boucle While</a></li>
-		<li><a href="tableau.html"> Exo 5 - Tableau</a></li>
-	</ul>
-	</nav>
-<nav id="lien">
-	<ul>
-		<li><a href="qcm.html"> QCM </a></li>
-		<li><a href="Stéphane Treppoz.pdf"> Compte-Rendu - Version PDF</a></li>
-		<li><a href="Stéphane Treppoz.docx"> Compte-Rendu - Version Doc </a></li>
+		<li class="menu-html"><a href="#">Exercices</a>
+			<ul class="submenu">
+			<li><a href="exo1.html">Exo 1 - Permutation</a></li>
+			<li><a href="exo2.html">Exo 2 - Pair et Impair</a></li>
+			<li><a href="exo3.html">Exo 3 - Mot de Passe</a></li>
+			<li><a href="exo4.html">Exo 4 - Boucle While</a></li>
+			<li><a href="tableau.html">Exo 5 - Tableau </a></li>
+			</ul>
+		</li>
+
+		<li class="menu-css"><a href="#">Compte-Rendu</a>
+			<ul class="submenu">
+			<li><a href="qcm.html"> QCM </a></li>
+			<li><a href="Stéphane Treppoz.pdf"> Compte-Rendu - Version PDF</a></li>
+			<li><a href="Stéphane Treppoz.docx"> Compte-Rendu - Version Doc </a></li>
+			</ul>
+		</li>
 	</ul>
 </nav>
 </body>
