@@ -27,10 +27,10 @@ nav li a{
 	display: ruby;
 	text-decoration: none;
 	background-color: #082371	;
-	color: white;
+	color:#082371;
 }
 nav li :hover{
-	background-color: whitesmoke;
+	background-color: #082371;
 }
 
 body
@@ -75,7 +75,7 @@ nav input[type=checkbox]
 nav
 {
 	width: 100%;
-	background-color: #424558;
+	background-color: #082371;
 }
 
 nav > ul > li
@@ -122,7 +122,7 @@ nav li:hover .submenu
 }
 .menu-html:hover
 {
-	border-top: 5px solid #e44d26;
+	border-top: 5px solid #082371;
 	background-color: RGBa(228, 77, 38, 0.15);
 }
 .menu-css:hover
@@ -132,7 +132,7 @@ nav li:hover .submenu
 }
 .menu-js:hover
 {
-	border-top: 5px solid #f1dc4f;
+	border-top: 5px solid #0070BB;
 	background-color: RGBa(241, 211, 79, 0.15);
 }
 .menu-contact:hover
@@ -163,7 +163,7 @@ nav > ul > li:hover a
 }
 .menu-html .submenu li:hover
 {
-	background-color: RGB(210, 77, 60);
+	background-color: RGB(000, 160, 240);
 }
 .menu-css .submenu li:hover
 {
