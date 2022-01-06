@@ -122,7 +122,7 @@ nav li:hover .submenu
 }
 .menu-html:hover
 {
-	border-top: 5px solid #082371;
+	border-top: 5px solid #0070BB;
 	background-color: RGBa(228, 77, 38, 0.15);
 }
 .menu-css:hover
@@ -146,7 +146,7 @@ nav > ul > li:hover a
 }
 .menu-html .submenu
 {
-	background-color: RGB(230, 100, 40);
+	background-color: RGB(000, 160, 240);
 }
 .menu-css .submenu
 {
@@ -163,7 +163,7 @@ nav > ul > li:hover a
 }
 .menu-html .submenu li:hover
 {
-	background-color: RGB(000, 160, 240);
+	background-color: RGB(000, 115, 200);
 }
 .menu-css .submenu li:hover
 {
